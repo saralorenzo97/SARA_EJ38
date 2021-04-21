@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>JAVA</title>
+</head>
+<body>
+    <script>
+        // nota1=parseInt(prompt("Introduce nota de teórico"));
+        // nota2=parseInt(prompt("Introduce nota de práctico")); para numeros enteros//
+        nota1=parseFloat(prompt("Introduce nota de teórico")); //para numeros decimales//
+        nota2=parseFloat(prompt("Introduce nota de práctico"));
+        media=(nota1*0.3) + (nota2*0.7);
+
+        document.write("La nota final es "+"<span class='nota'>"+media+"</span>");
+
+        if (media>=5 && media<=6){
+            document.write("<p class='suficiente'> Suficiente :S </p>");
+        }
+        if (media>=6 && media<7) {
+            document.write("<p class='bien'> Bien :) </p>")
+        }
+        
+        if (media>=7 && media<9) {
+            document.write("<p class='notable'> Notable :D </p>")
+        }
+
+        if (media>=9 && media<11) {
+            document.write("<p class='sobresaliente'> Sobresaliente :DD </p>")
+        }
+
+        if(media<5 && media>3){
+
+            document.write("<p class='insuficiente'> Insuficiente :'( </p>");
+        }
+
+        if(media<3)
+        {
+            document.write("<p class='suspenso'> Muy insuficiente  :''( </p>");
+        }
+
+        mitabla=prompt("dime la tabla de multiplicar que quieres")
+        for(var valor=1; valor<=10; valor++){
+            document.write("<p> "+ valor +" x "+mitabla+" = "+ valor*mitabla +"</p>")
+        }
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+.insuficiente{
+    color: red;
+    padding: 0.5em 1em;
+    border: 1px solid red;
+}
+
+.suficiente{
+    color: orange;
+    padding: 0.5em 1em;
+    border: orange 1px solid;
+}
+
+.notable{
+    color: greenyellow;
+    padding: 0.5em 1em;
+    border: 1px solid greenyellow;
+}
+
+.suspenso{
+    color:white;
+    background-color: red;
+    padding: 0.5em 1em;
+}
+
+.sobresaliente{
+    color: green;
+    border: 1px solid green;
+    padding: 0.5em 1em;
+}
+
+.bien{
+    padding: 0.5em 1em;
+    background-color: yellow;
+
+}
+
+.nota{
+    font-size: 2em;
+}
